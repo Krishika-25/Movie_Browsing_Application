@@ -1,16 +1,124 @@
-# React + Vite
+# 🎬 Movie Browsing Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive Movie Browsing web application built using **React + Vite**. Users can browse movies, view movie posters, and add or remove movies from their favorites list.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- 🎥 Browse movie collection
+- ❤️ Add movies to Favorites
+- ❌ Remove movies from Favorites
+- 🖼️ Movie posters with placeholder image support
+- 📱 Responsive UI
+- ⚡ Fast development using Vite
+- 🎨 Clean and minimal interface
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- Vite
+- JavaScript (ES6+)
+- CSS3
+- HTML5
+
+---
+
+## 📂 Project Structure
+
+```
+MovieApp/
+│
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── Moviecard.jsx
+│   │   └── Navbar.jsx
+│   │
+│   ├── css/
+│   │   ├── App.css
+│   │   ├── Favorites.css
+│   │   ├── Home.css
+│   │   ├── Moviecard.css
+│   │   └── Navbar.css
+│   │
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   └── Favourites.jsx
+│   │
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── package.json
+└── vite.config.js
+```
+
+---
+
+## 📸 Screenshots
+
+
+## ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/Krishika-25/Movie_Browsing_Application.git
+```
+
+Move into the project
+
+```bash
+cd Movie_Browsing_Application
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## 💡 How it Works
+
+- Movies are displayed as cards.
+- Each card contains:
+  - Movie Poster
+  - Movie Title
+  - Favorite Button
+- Clicking the ❤️ button:
+  - Adds the movie to Favorites.
+  - Removes it if already added.
+- If a movie poster is unavailable, a placeholder image is shown.
+
+---
+
+## 📌 Future Improvements
+
+- 🔍 Search Movies
+- 🎭 Filter by Genre
+- ⭐ Ratings
+- 📄 Movie Details Page
+- 🌙 Dark Mode
+- 💾 Save Favorites using Local Storage
+- 🎬 API Integration (OMDb / TMDB)
+
+---
+
+## 👩‍💻 Author
+
+**Krishika Dhiman**
+
+GitHub: https://github.com/Krishika-25
+
+---
