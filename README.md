@@ -60,6 +60,11 @@ MovieApp/
 
 ## 📸 Screenshots
 
+![alt text](image.png)
+
+![alt text](image.png)
+
+
 
 ## ⚙️ Installation
 
